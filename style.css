@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    height: 90vh;
+    background-image: url(https://previews.123rf.com/images/vska/vska1607/vska160700053/60629271-r%C3%A9sum%C3%A9-t%C3%AAte-num%C3%A9rique-du-site-web-technologie-de-banni%C3%A8re-fond.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-login {
+    width: 30vw;
+    height: 20vh;
+    background-color: #FF6347;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.4em;
+    box-shadow: 3px 3px 3px #4F4F4F;
+}
+
+.enter {
+    width: 25vw;
+    height: 5vh;
+    border-radius: 0.5em;
+    font-size: 0.8em;
+    letter-spacing: 0.3rem;
+    border: 0.1em solid #363636;
+}
+
+.click {
+    width: 15vw;
+    height: 4vh;
+    font-size: 1em;
+    letter-spacing: 0.2rem;
+    border-radius: 0.5em;
+    border: 0.1em solid #C0C0C0;
+}
+
+h1 {
+    color: #B22222;
+    letter-spacing: 0.3em;
+    font-size: 2.3em;
+}
